@@ -1,0 +1,35 @@
+14:37:24 **** Build of configuration Debug for project distortion_trial ****
+make all 
+'Building file: ../src/adventures_with_ip.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -I../../distortion_trial_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.d" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:97:3: warning: implicit declaration of function 'distortion_continuous' [-Wimplicit-function-declaration]
+   distortion_continuous();
+   ^
+'Finished building: ../src/adventures_with_ip.c'
+' '
+'Building file: ../src/audio.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio.o" -I../../distortion_trial_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio.d" -MT"src/audio.d" -o "src/audio.o" "../src/audio.c"
+'Finished building: ../src/audio.c'
+' '
+'Building file: ../src/ip_functions.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ip_functions.o" -I../../distortion_trial_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ip_functions.d" -MT"src/ip_functions.d" -o "src/ip_functions.o" "../src/ip_functions.c"
+'Finished building: ../src/ip_functions.c'
+' '
+'Building target: distortion_trial.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../distortion_trial_bsp/ps7_cortexa9_0/lib -o "distortion_trial.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: distortion_trial.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size distortion_trial.elf  |tee "distortion_trial.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72396	   2376	  22744	  97516	  17cec	distortion_trial.elf
+'Finished building: distortion_trial.elf.size'
+' '
+
+14:37:27 Build Finished (took 2s.977ms)
+

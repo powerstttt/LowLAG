@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:37:43 MDT 2015
+# 
+# Start of session at: Mon Jun 29 19:40:10 2020
+# Process ID: 6324
+# Log file: C:/Zynk_test/lowlag_test/lowlag_test.sdk/webtalk/webtalk.log
+# Journal file: C:/Zynk_test/lowlag_test/lowlag_test.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

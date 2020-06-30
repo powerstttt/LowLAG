@@ -1,0 +1,14 @@
+##############################################################################
+## File Name:         hdl_prj\ipcore\distortion_ip_v4_10_a\data\distortion_ip_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Created:           2020-06-22 19:51:14
+##############################################################################
+
+lib distortion_ip_v4_10_a distortion_ip_src_Distortion_tc vhdl
+lib distortion_ip_v4_10_a distortion_ip_src_Distortion vhdl
+lib distortion_ip_v4_10_a distortion_ip_dut vhdl
+lib distortion_ip_v4_10_a distortion_ip_cop vhdl
+lib distortion_ip_v4_10_a distortion_ip_axi_lite_module vhdl
+lib distortion_ip_v4_10_a distortion_ip_addr_decoder vhdl
+lib distortion_ip_v4_10_a distortion_ip_axi_lite vhdl
+lib distortion_ip_v4_10_a distortion_ip vhdl

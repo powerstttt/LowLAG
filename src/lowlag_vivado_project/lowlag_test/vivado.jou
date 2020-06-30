@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Mon Jun 29 21:01:00 2020
+# Process ID: 3752
+# Log file: C:/Users/eseny/Desktop/student_xohw20_262_SAN_20200630_1/src/lowlag_vivado_project/lowlag_test/vivado.log
+# Journal file: C:/Users/eseny/Desktop/student_xohw20_262_SAN_20200630_1/src/lowlag_vivado_project/lowlag_test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/eseny/Desktop/student_xohw20_262_SAN_20200630_1/src/lowlag_vivado_project/lowlag_test/lowlag_test.xpr
+open_bd_design {C:/Users/eseny/Desktop/student_xohw20_262_SAN_20200630_1/src/lowlag_vivado_project/lowlag_test/lowlag_test.srcs/sources_1/bd/ip_design/ip_design.bd}
+launch_sdk -workspace C:/Users/eseny/Desktop/student_xohw20_262_SAN_20200630_1/src/lowlag_vivado_project/lowlag_test/lowlag_test.sdk -hwspec C:/Users/eseny/Desktop/student_xohw20_262_SAN_20200630_1/src/lowlag_vivado_project/lowlag_test/lowlag_test.sdk/ip_design_wrapper.hdf
